@@ -6,4 +6,3 @@
 (import-vars
   [adt.def defadt]
   [adt.match match])
-

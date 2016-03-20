@@ -25,6 +25,4 @@
   (let [meta-map-symbol (gensym "mm")]
     `(let [~meta-map-symbol {:type ~type-tag}]
        (derive ~type-tag ::adt)
-       ~@(map (partial constructor-code meta-map-symbol) constructors)
-       )))
-
+       ~@(map (partial constructor-code meta-map-symbol) constructors))))

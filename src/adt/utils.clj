@@ -16,4 +16,3 @@
     (if (= 1 (count v))
       (first v)
       v)))
-

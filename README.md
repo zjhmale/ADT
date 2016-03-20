@@ -1,6 +1,6 @@
-# adt
+# ADT
 
-FIXME: description
+[![Build Status](https://travis-ci.org/zjhmale/ADT.svg?branch=master)](https://travis-ci.org/zjhmale/ADT)
 
 ## Installation
 
