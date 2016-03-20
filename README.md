@@ -1,4 +1,4 @@
-# adt
+# ADT
 
 Algebraic Data Type
 
@@ -17,17 +17,19 @@ Algebraic Data Type
 ## Examples
 
 ```clojure
+(require [adt.sweet :refer :all])
+
 (defadt ::tree
-  empty-tree
-  (leaf value)
-  (node left-tree right-tree))
+  Empty-tree
+  (Leaf value)
+  (Node left-tree value right-tree))
 
 (defn depth
   [t]
   (match t
-    empty-tree 0
-    (leaf _) 1
-    (node l r) (inc (max (depth l) (depth r)))))
+    Empty-tree 0
+    (Leaf _) 1
+    (Node l v r) (inc (max (depth l) (depth r)))))
 ```
 
 ## License
