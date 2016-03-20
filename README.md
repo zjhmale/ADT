@@ -1,4 +1,4 @@
-# ADT
+# adt
 
 Algebraic Data Type
 
@@ -6,12 +6,12 @@ Algebraic Data Type
 
 ## Installation
 
-[![Clojars Project](http://clojars.org/zjhmale/ADT/latest-version.svg)](http://clojars.org/zjhmale/ADT)
+[![Clojars Project](http://clojars.org/zjhmale/adt/latest-version.svg)](http://clojars.org/zjhmale/adt)
 
 ## Usage
 
 ```clojure
-:dependencies [[zjhmale/ADT "0.1.0"]]
+:dependencies [[zjhmale/adt "0.1.0"]]
 ```
 
 ## Examples
