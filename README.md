@@ -1,16 +1,18 @@
 # ADT
 
+Algebraic Data Type
+
 [![Build Status](https://travis-ci.org/zjhmale/ADT.svg?branch=master)](https://travis-ci.org/zjhmale/ADT)
 
 ## Installation
 
-Download from http://example.com/FIXME.
+[![Clojars Project](http://clojars.org/zjhmale/ADT/latest-version.svg)](http://clojars.org/zjhmale/ADT)
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar adt-0.1.0-standalone.jar [args]
+```clojure
+:dependencies [[zjhmale/ADT "0.1.0"]]
+```
 
 ## Examples
 
@@ -30,7 +32,6 @@ FIXME: explanation
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2010 Rich Hickey and the various contributors
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License, the same as Clojure.
