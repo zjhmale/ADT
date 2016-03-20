@@ -6,7 +6,7 @@ Algebraic Data Type
 
 ## Installation
 
-[![Clojars Project](http://clojars.org/zjhmale/adt/latest-version.svg)](http://clojars.org/zjhmale/adt)
+[![Clojars Project](https://clojars.org/zjhmale/adt/latest-version.svg)](https://clojars.org/zjhmale/adt)
 
 ## Usage
 
