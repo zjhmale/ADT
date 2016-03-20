@@ -12,21 +12,21 @@ FIXME: explanation
 
     $ java -jar adt-0.1.0-standalone.jar [args]
 
-## Options
-
-FIXME: listing of options this app accepts.
-
 ## Examples
 
-...
+```clojure
+(defadt ::tree
+  empty-tree
+  (leaf value)
+  (node left-tree right-tree))
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+(defn depth
+  [t]
+  (match t
+    empty-tree 0
+    (leaf _) 1
+    (node l r) (inc (max (depth l) (depth r)))))
+```
 
 ## License
 
